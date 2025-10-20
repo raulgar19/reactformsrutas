@@ -9,6 +9,9 @@ export default class MenuRutas extends Component {
             <a href="/">Home</a>
           </li>
           <li>
+            <a href="/collatz">Conjetura de Collatz</a>
+          </li>
+          <li>
             <a href="/cine">Cine</a>
           </li>
           <li>
@@ -16,6 +19,15 @@ export default class MenuRutas extends Component {
           </li>
           <li>
             <a href="/formSimple">Formulario Simple</a>
+          </li>
+          <li>
+            <a href="/tablaMultiplicar">Tabla de multiplicar</a>
+          </li>
+          <li>
+            <a href="/tablaMultiplicarv2">Tabla de multiplicar V2</a>
+          </li>
+          <li>
+            <a href="/seleccionMultiple">Seleccion Múltiple</a>
           </li>
         </ul>
       </div>
