@@ -1,5 +1,5 @@
+import { BrowserRouter, Routes, Route } from "react-router-dom";
 import React, { Component } from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Home from "./Home";
 import Cine from "./Cine";
 import Musica from "./Musica";
@@ -9,12 +9,13 @@ import TablaMultiplicar from "./TablaMultiplicar";
 import TablaMultiplicarv2 from "./TablaMultiplicarv2";
 import SeleccionMultiple from "./SeleccionMultiple";
 
-class Router extends Component {
+export default class Router extends Component {
   render() {
     return (
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
+<<<<<<< HEAD
           <Route path="/collatz" element={<Collatz />} />
           <Route path="/cine" element={<Cine />} />
           <Route path="/musica" element={<Musica />} />
@@ -22,10 +23,17 @@ class Router extends Component {
           <Route path="/tablaMultiplicar" element={<TablaMultiplicar />} />
           <Route path="/tablaMultiplicarv2" element={<TablaMultiplicarv2 />} />
           <Route path="/seleccionMultiple" element={<SeleccionMultiple />} />
+=======
+          <Route path="/multiple" element={<SeleccionMultiple />} />
+          <Route path="/collatz" element={<Collatz />} />
+          <Route path="/cine" element={<Cine />} />
+          <Route path="/musica" element={<Musica />} />
+          <Route path="/formsimple" element={<FormSimple />} />
+          <Route path="/tablamultiplicar" element={<TablaMultiplicar />} />
+          <Route path="/tablamultiplicar2" element={<TablaMultiplicarv2 />} />
+>>>>>>> ef21f4619cbe483249412fdbe379731c0eed1828
         </Routes>
       </BrowserRouter>
     );
   }
 }
-
-export default Router;
