@@ -15,7 +15,6 @@ export default class Router extends Component {
       <BrowserRouter>
         <Routes>
           <Route path="/" element={<Home />} />
-<<<<<<< HEAD
           <Route path="/collatz" element={<Collatz />} />
           <Route path="/cine" element={<Cine />} />
           <Route path="/musica" element={<Musica />} />
@@ -23,15 +22,6 @@ export default class Router extends Component {
           <Route path="/tablaMultiplicar" element={<TablaMultiplicar />} />
           <Route path="/tablaMultiplicarv2" element={<TablaMultiplicarv2 />} />
           <Route path="/seleccionMultiple" element={<SeleccionMultiple />} />
-=======
-          <Route path="/multiple" element={<SeleccionMultiple />} />
-          <Route path="/collatz" element={<Collatz />} />
-          <Route path="/cine" element={<Cine />} />
-          <Route path="/musica" element={<Musica />} />
-          <Route path="/formsimple" element={<FormSimple />} />
-          <Route path="/tablamultiplicar" element={<TablaMultiplicar />} />
-          <Route path="/tablamultiplicar2" element={<TablaMultiplicarv2 />} />
->>>>>>> ef21f4619cbe483249412fdbe379731c0eed1828
         </Routes>
       </BrowserRouter>
     );
